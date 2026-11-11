@@ -39,7 +39,6 @@ yarn-error.log*
 
 # env files — everything ignored EXCEPT the .env.example templates, which
 # must be tracked so contributors know which variables to set.
-.env*
 !.env.example
 !spikes/**/.env.example
 
@@ -142,3 +141,4 @@ CLAUDE.local.md
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
 .claude/worktrees/
+config.bat
